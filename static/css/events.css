@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+
+}
+
+.event-container-wrapper{
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #191919;
+  color: white;
+}
+.container{
+  padding-top: 30px;
+}
+.navbar {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.navbar-nav {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+  margin: 0 20px;
+  font-size: 17px;
+  color: #45669d;
+}
+.nav-link-a {
+  color: #45669d;
+  text-decoration: none;
+}
+
+.selection-btns{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
+}
+.selection-btn{
+  margin: 0 15px;
+  width: 150px;
+  height: 45px;
+  border-radius: 25px;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selection-btn:nth-child(1){
+  background-color: #47CCFF;
+  border: none;
+  color: black;
+  font-weight: 600;
+}
+
+.fas{
+  margin-right: 10px;
+}
+
+.heading{
+  width: max-content;
+  font-weight: 600;
+  text-align: center;
+  line-height: 25px;
+}
+
+.heading label{
+  width: 240px;
+  height: 2px;
+  background-color: rgb(0, 200, 255);
+}
+
+.previous-event-heading{
+  margin-top: 7rem;
+}
+.previous-event-heading label{
+  width: 180px;
+}
+
+.event-gallery-container{
+  width: 100%;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+  gap: 20px;
+}
+.gallery-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.gallery-content img{
+  width: 100%;
+}
+.gallery-content h5{
+  margin-top: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.gallery-content p{
+  color: rgb(189, 189, 189);
+}
+
+@media (max-width: 1000px) {
+  .heading{
+    width: 100%;
+  }
+}
+
+@media (max-width : 770px) {
+  .event-gallery-container{
+    height: auto;
+    margin: 0;
+  }
+  
+  .previous-event-heading{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .selection-btn{
+    margin: 0 15px;
+    width: auto;
+    padding: 0 20px;
+    font-size: calc(.6rem + .7vw);
+  }
+  .fas{
+    font-size: calc(.7rem + .5vw);
+  }
+  .selection-btn:nth-child(1){
+    background-color: #47CCFF;
+    border: none;
+    color: black;
+    font-weight: 600;
+  }
+}
+
+@media (max-width : 600px) {
+  .selection-btn{
+    margin: 8px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: calc(.7rem + .7vw);
+  }
+  .fas{
+    font-size: calc(.7rem + .5vw);
+  }
+  .navbar{ 
+    padding: 0;
+    border-radius: 20px;
+    padding-right: 30px;
+  }
+  .navbar-brand img{
+    width: 67px;
+  }
+  .selection-btns{
+    margin: 0;
+    margin-top: 30px;
+  }
+  .heading{
+    font-size: calc(1rem + 1vw);
+    text-align: left;
+  }
+  .heading label{
+    width: 120px;
+  }
+  .event-gallery-container{
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  }
+}
+
+@media (max-width: 450px) {
+  .selection-btn{
+    margin: 8px;
+    padding: 8px;
+    font-size: calc(.6rem + .7vw);
+  }
+  .fas{
+    font-size: calc(.5rem + .5vw);
+    margin: 0;
+    margin-right: 5px;
+  }
+  .heading{
+    font-size: calc(1rem + 1vw);
+  }
+  .heading label{
+    width: 150px;
+  }
+  
+  .event-gallery-container{
+    grid-template-columns: repeat(auto-fill,minmax(130px,1fr));
+  }
+  .gallery-content h5{
+    font-size: calc(.6rem + 1vw);
+  }
+
+  .gallery-content p{
+    font-size: calc(.6rem + 1vw);
+  }
+
+
+}
+
+
+
+@media (max-width: 390px) {
+  .selection-btn{
+    margin: 5px;
+    padding: 5px;
+    font-size: calc(.6rem + .7vw);
+  }
+  .fas{
+    font-size: calc(.5rem + .5vw);
+    margin: 0;
+    margin-right: 5px;
+  }
+  .heading{
+    font-size: calc(1rem + 1vw);
+  }
+ 
+}
+
+
+@media (max-width: 320px) {
+  .selection-btn{
+    margin: 5px;
+    padding: 5px;
+    font-size: calc(.6rem + .4vw);
+  }
+  .fas{
+    font-size: calc(.5rem + .5vw);
+    margin: 0;
+    margin-right: 3px;
+  }
+  .heading{
+    font-size: calc(1rem + 1vw);
+  }
+ 
+}

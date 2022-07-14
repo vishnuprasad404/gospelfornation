@@ -1,0 +1,104 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ffd7bffe92.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/charity.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}" />
+
+    <title>Charity</title>
+  </head>
+  <body>
+    <section id="charity">
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light justify-content-between"
+        >
+          <a class="navbar-brand" href="/"
+            ><img src="{% static 'img/logo.png' %}" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/minister">Our Minister</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/events">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/charity">Charity</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <h1 class="charity-heading">Charity <p class="charity-underline"></p></h1>
+        <section class="charity-container">
+            <div class="charity-left">
+                <p class="charity-des">We are, Gospel for Nations( GFN), registered charity under the charity <br>commission, UK. <br><br> Through the love of Christ, we aim to show support to the community. We have a burden for the nations hence we named ourselves as Gospel for Nations.  The activities of the trust are governed by a board of 3 trustees. <br><br>Under GFN, the Lord enables to organise various activities to help the communities, run music classes, kingdom kids, ladies gatherings, family get together, musical events, day outings, summer fairs, biblical study classes, career guidance, language classes and character developing activities. We also fund raise to support voluntary agencies and other organisations within the UK. <br><br> Please do get in touch to know more about our charitable services.</p>
+                <div class="charity-decor1"></div>
+            </div>
+            <div class="charity-right">
+                <img class="charity-image" src="{% static 'img/people-holding-rubber-heart.png' %}"></img>
+                <div class="charity-decor2"></div>
+            </div>
+        </section>
+    </section>
+    <section class="footer">
+      <div class="footer-top">
+        <section class="address-section">
+          <h5>Address</h5>
+          <p>12 Field Road</p>
+          <p>High Wycombe</p>
+          <p>HP12 4LR</p>
+        </section>
+        <section class="contact-section">
+          <h5>Contact Us</h5>
+          <p>+44 7956 424509</p>
+          <p>info@gospelfornations.co.uk</p>
+        </section>
+        <section class="follow-section">
+          <h5>Follow Us</h5>
+          <div class="icon-container">
+            <i class="fa-brands fa-google-plus-g"></i
+            ><i class="fa-brands fa-twitter" style="margin-left: 5px"></i
+            ><i class="fa-brands fa-facebook-f" style="margin-left: 5px"></i>
+            <i class="fa-brands fa-instagram" style="margin-left: 5px"></i>
+          </div>
+        </section>
+      </div>
+      <div class="footer-bottom">
+        <p>@ 2022 www.gospelfornations.co.uk All Rights Reserved</p>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

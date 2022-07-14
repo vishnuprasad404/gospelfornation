@@ -1,0 +1,238 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ffd7bffe92.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/landingpage.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}" />
+
+    <title>Church</title>
+  </head>
+  <body>
+
+    <div class="home-page">
+      <div class="landing-page">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+          <a class="navbar-brand" href="/"
+            ><img src="{% static 'img/logo.png' %}" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/minister">Our Minister</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/events">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/charity">Charity</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+          <h1 class="landing-title">
+            Make a Difference for People Who Needs it The Most
+          </h1>
+          <p class="landing-des">
+            We are extremely glad you took the time to visit us on our web page.
+            Regardless of where you are on your life journey - just starting out
+            or seeking a deeper walk with God, we want you to feel at home here.
+          </p>
+          <div class="landing-btns">
+            <button class="btn1">Visit US This Sunday</button>
+            <button class="btn2">
+              View Location <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <div class="landing-icons">
+            <div class="landing-icon">
+              <i class="fa fa-youtube"></i>
+            </div>
+            <div class="landing-icon">
+              <i class="fa fa-facebook"></i>
+            </div>
+            <div class="landing-icon">
+              <i class="fa fa-twitter"></i>
+            </div>
+            <div class="landing-icon">
+              <i class="fa fa-instagram"></i>
+            </div>
+            <p class="landing-line"></p>
+          </div>
+        </div>
+      </div>
+      <div class="container church-container-wrapper">
+        <h1 class="our-churches-hd">
+          Our Churches
+          <p class="underline"></p>
+        </h1>
+
+        <div class="churches-container-wrapper">
+          <a href="#">See All</a>
+          <br /><br /><br />
+          <div class="churches-container">
+            <div class="church-box">
+              <div class="curch-box-text-content">
+                <h4>Wycombe Prayer Centre</h4>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the
+                </p>
+                <button class="church-box-btn">
+                  Read More <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+              <div class="curch-box-image-content"></div>
+            </div>
+            <div class="church-box box-2">
+              <div class="curch-box-text-content">
+                <h4>Wycombe Prayer</h4>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the
+                </p>
+                <button class="church-box-btn">
+                  Read More <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+              <div class="curch-box-image-content"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-churches-container">
+        <div class="about-left">
+          <h1 class="about-heading-small">
+            About Churches
+            <p class="underline about-small-underline"></p>
+          </h1>
+          <div class="decor1"></div>
+          <img
+            class="about-img"
+            src="{% static 'img/about-churches.png' %}"
+            alt=""
+          />
+        </div>
+        <div class="about-right">
+          <h1 class="about-heading">
+            About Churches
+            <p class="underline about-underline"></p>
+          </h1>
+          <p class="about-des">
+            In 2009, Pastor Finny John and family were used as instruments by
+            God for laying the foundations of a prayer gathering in High
+            Wycombe, Bucks. The gathered believers prayed for the needy and the
+            suffering.
+          </p>
+          <a href="/church/about">
+            <button class="about-btn">
+              Read More <i class="fas fa-arrow-right"></i>
+          </button>
+          </a>
+          <div class="decor-2"></div>
+        </div>
+      </div>
+      <div class="sacraments-container">
+        <h1 class="sacraments-heading">
+          Sacraments
+          <p class="underline sacraments-underline"></p>
+        </h1>
+        <div class="sacrament-container">
+          <div class="sacraments-content-left">
+            <h1 class="sacrament-number">01</h1>
+            <div class="sacrament-content">
+              <h2 class="sacrament-sub-heading1" >Water Baptism</h1>
+              <p>
+                All those born again believers, by accepting Christ in their
+                hearts as Saviour must accept the water immersion Baptism, the
+                commandment of our LORD. It is a public witness of the believer
+                that he/she is baptized in to His death, buried with Him, raised
+                from the dead, as Christ was raised to live in the newness of
+                life. (Mathew 28:19, Acts 10:47, Rom. 6:4).
+              </p>
+            </div>
+          </div>
+
+          <div class="sacraments-content-right">
+            <h1 class="sacrament-number">02</h1>
+            <div class="sacrament-content">
+              <h2 class="sacrament-sub-heading2">Lord’s Supper</h2>
+              <p>
+                Lord’s Supper - also called Holy Communion - is a clear
+                sacrament given in the New Testament. Those who are baptized in
+                water by immersion in the name of the Father, the Son and of the
+                Holy Spirit and also leads a holy life are eligible to take part
+                in the Lord’s Supper.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="/sacraments">
+          <button class="sacrament-btn">Read More <i class="fas fa-arrow-right"></i></button>
+        </a>
+      </div>
+      <section class="footer">
+        <div class="footer-top">
+          <section class="address-section">
+            <h5>Address</h5>
+            <p class="small">12 Field Road 12 Field Road</p>
+  
+            <p class="big">12 Field Road</p>
+            <p class="big">High Wycombe</p>
+            <p>HP12 4LR</p>
+          </section>
+          <section class="contact-section">
+            <h5>Contact Us</h5>
+            <p>+44 7956 424509</p>
+            <p>info@gospelfornations.co.uk</p>
+          </section>
+          <section class="follow-section">
+            <h5>Follow Us</h5>
+            <div class="icon-container">
+              <i class="fa-brands fa-google-plus-g"></i
+              ><i class="fa-brands fa-twitter" style="margin-left: 5px"></i
+              ><i class="fa-brands fa-facebook-f" style="margin-left: 5px"></i>
+              <i class="fa-brands fa-instagram" style="margin-left: 5px"></i>
+            </div>
+          </section>
+        </div>
+        <div class="footer-bottom">
+          <p>@ 2022 www.gospelfornations.co.uk All Rights Reserved</p>
+        </div>
+      </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
