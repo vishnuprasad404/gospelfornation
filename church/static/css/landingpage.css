@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: poppins;
 }
+
 .home-page {
   background-color: #191919;
   color: white;
@@ -18,9 +19,11 @@
   background-size: cover;
   background-position: center;
 }
+
 .container {
   padding-top: 10px;
   max-width: auto;
+  height: max-content;
   width: 100%;
 }
 
@@ -28,18 +31,23 @@
   margin-top: 140px;
   max-width: 600px;
   font-weight: 600;
-  line-height: 55px;
+  line-height: 50px;
+  font-size: 35px;
 }
+
 .landing-des {
   margin-top: 20px;
   max-width: 740px;
   line-height: 35px;
   font-size: 16px;
   color: #d3d3d2;
+  font-weight: lighter;
 }
+
 .landing-btns {
   margin-top: 50px;
 }
+
 .btn1 {
   padding: 14px 20px;
   border-radius: 30px;
@@ -47,6 +55,7 @@
   background: transparent linear-gradient(180deg, #47ccff 0%, #00bbff 100%);
   font-weight: 600;
 }
+
 .btn2 {
   background: none;
   border: none;
@@ -55,6 +64,7 @@
   font-weight: 600;
   font-size: 19px;
 }
+
 .fa-arrow-right {
   margin-left: 15px;
 }
@@ -87,23 +97,26 @@
 
 .our-churches-hd {
   width: max-content;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 80px;
   font-weight: 600;
   display: grid;
   place-items: center;
 }
 
 .underline {
-  width: 180px;
+  width: 100px;
   height: 3px;
   background-color: cyan;
+  margin: 0;
+  padding: 0;
   margin-top: 16px;
 }
+
 .churches-container-wrapper {
   width: 100%;
   /* margin: 50px 0; */
 }
+
 .churches-container-wrapper a {
   float: right;
   text-decoration: none;
@@ -118,47 +131,57 @@
   padding-bottom: 100px;
   align-items: center;
 }
+
 .church-box {
   width: 750px;
-  height: 250px;
+  height: 220px;
   background-color: grey;
-  border-radius: 10px;
-  background: transparent linear-gradient(180deg, #47ccff 0%, #00bbff 100%);
-  box-shadow: -20px -1px 70px 2px rgba(0, 255, 255, 0.131);
+  border-radius: 20px;
+  background: #182a30;
   display: flex;
   position: relative;
   color: black;
   margin: 0 30px;
 }
+
 .curch-box-text-content {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
 }
-.curch-box-text-content h4 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 20px;
-  letter-spacing: 1.5px;
+
+.curch-box-text-content h1 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0;
 }
 
 .curch-box-text-content p {
   max-width: 270px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   line-height: 30px;
+  font-size: 15.5px
 }
+
 .church-box-btn {
-  margin-top: 25px;
+  /* margin-top: 25px; */
   background: none;
   border: none;
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 17px;
 }
 
 .curch-box-image-content {
   width: 250px;
   height: 100%;
-  background-color: red;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   background-image: url("https://www.amarpujo.com/wp-content/uploads/2019/06/john-price-RAZQiZOX3mU-unsplash-min-e1563359733784.jpg");
   background-size: cover;
   background-position: center;
@@ -166,11 +189,6 @@
   right: 0;
 }
 
-.box-2 {
-  background: #182a30;
-  box-shadow: none;
-  color: white;
-}
 .box-2 button {
   color: white;
 }
@@ -181,19 +199,23 @@
   margin: 50px 0;
   display: flex;
 }
+
 .about-left {
   width: 700px;
   position: relative;
 }
+
 .about-right {
   width: 100%;
   display: grid;
   place-content: center;
   position: relative;
 }
+
 .about-heading-small {
   display: none;
 }
+
 .decor1 {
   width: 180px;
   height: 500px;
@@ -212,10 +234,12 @@
   text-align: center;
   position: relative;
 }
+
 .about-underline {
   width: 240px;
   margin-left: 30px;
 }
+
 .about-des {
   max-width: 700px;
   font-size: 25px;
@@ -223,6 +247,7 @@
   margin-top: 20px;
   z-index: 1;
 }
+
 .about-btn {
   background: none;
   border: none;
@@ -249,11 +274,13 @@
   flex-direction: column;
   align-items: center;
 }
+
 .sacraments-heading {
   display: grid;
   place-items: center;
   margin: 70px 0;
 }
+
 .sacraments-underline {
   margin: 0;
   margin-top: 25px;
@@ -261,30 +288,36 @@
   height: 1.5px;
   margin-bottom: 80px;
 }
+
 .sacrament-container {
   width: 100%;
   display: flex;
 }
+
 .sacraments-content-left {
   width: 50%;
   display: flex;
   justify-content: center;
 }
+
 .sacraments-content-right {
   width: 50%;
   display: flex;
 }
+
 .sacrament-number {
   margin-right: 50px;
   font-size: 70px;
   color: #474747;
   font-weight: 600;
 }
+
 .sacrament-content h2 {
   font-size: 30px;
   margin-top: 8px;
   margin-bottom: 30px;
 }
+
 .sacrament-content p {
   max-width: 520px;
   line-height: 30px;
@@ -298,10 +331,13 @@
   border: none;
   color: #57bfe6;
   margin-top: 80px;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
 }
+
 .sacrament-btn i {
-  margin-left: 20px;
+  margin-left: 10px;
+  color: #57bfe6;
+
 }
 
 @media (max-width: 1400px) {
@@ -309,17 +345,21 @@
     /* background-color: grey; */
     display: block;
   }
+
   .church-box {
     width: 100%;
     margin: 0;
     margin: 50px 0;
   }
+
   .about-left {
     width: 50%;
   }
+
   .about-right {
     width: 50%;
   }
+
   .decor-2 {
     width: 70%;
   }
@@ -331,39 +371,48 @@
     flex-direction: column;
     align-items: center;
   }
+
   .about-right {
-    /* background-color: red; */
     width: 100%;
     margin-top: 200px;
   }
+
   .about-heading {
     display: none;
   }
+
   .about-heading-small {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .about-heading-small .about-small-underline {
     width: 200px;
   }
+
   .about-des {
     font-size: calc(0.9rem + 1vw);
   }
+
   .decor-2 {
     width: 70%;
   }
+
   .sacrament-container {
     flex-direction: column;
     padding: 20px;
   }
+
   .sacraments-content-left {
     width: 100%;
   }
+
   .sacrament-content p {
     max-width: 100%;
     line-height: 30px;
   }
+
   .sacraments-content-right {
     width: 100%;
   }
@@ -373,9 +422,11 @@
   .container {
     padding-top: 20px;
   }
+
   .church-box {
     width: 100%;
   }
+
   .curch-box-image-content {
     width: 200px;
   }
@@ -385,6 +436,7 @@
   .churches-container-wrapper a {
     display: none;
   }
+
   .our-churches-hd {
     width: max-content;
     margin-top: 0;
@@ -394,36 +446,47 @@
   .church-box {
     height: 200px;
   }
+
   .curch-box-text-content {
     padding: 10px;
   }
+
   .curch-box-text-content h4 {
     font-size: 20px;
     margin: 0;
   }
+
   .curch-box-text-content p {
     margin: 0;
     margin-top: 7px;
   }
+
   .about-left {
     width: 100%;
     display: grid;
     place-items: center;
   }
+
   .about-right {
     padding: 20px;
   }
+
   .about-des {
     font-size: 17px;
   }
+
   .church-box {
     width: 100%;
   }
+
   .curch-box-image-content {
     width: 180px;
   }
+
   .curch-box-text-content {
     width: 60%;
+    padding: 1px;
+    padding-left: 1px;
   }
 }
 
@@ -433,13 +496,15 @@
     background-image: none;
     background-image: url("../img/bg-medium.jpg");
   }
+
   .landing-title {
-    margin-top: 280px;
+    margin-top: 256px;
     max-width: 600px;
     font-weight: 600;
     line-height: 55px;
     padding: 0 10px;
   }
+
   .landing-des {
     font-size: 13px;
     font-weight: 100;
@@ -449,27 +514,33 @@
     padding: 0 10px;
     font-family: poppins, light;
   }
+
   .landing-btns {
     margin: 0;
     margin-top: 20px;
   }
+
   .btn1 {
     width: auto;
     font-size: 12px;
     margin-left: 10px;
   }
+
   .btn2 {
     font-size: 13px;
   }
+
   .landing-icons {
     margin: 0;
     margin-top: 50px;
     margin-left: 10px;
   }
+
   .landing-icon {
     width: 35px;
     height: 35px;
   }
+
   .about-heading-small {
     display: flex;
     flex-direction: column;
@@ -477,17 +548,21 @@
     position: absolute;
     top: -80px;
   }
+
   .about-heading-small .about-small-underline {
     width: 200px;
   }
+
   .church-container-wrapper {
     margin-top: 320px;
   }
+
   .about-left {
     height: 500px;
     position: relative;
     padding: 10px;
   }
+
   .decor1 {
     height: 300px;
     width: 200px;
@@ -495,25 +570,33 @@
     left: 0;
     top: 0;
   }
+
   .about-left img {
     left: 20px;
     width: 90%;
   }
+
+  /* .church-box-btn {
+    position: static;
+  } */
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .our-churches-hd {
     font-size: 22px;
     margin: 0 10px;
     display: block;
   }
+
   .our-churches-hd .underline {
     width: 80px;
     margin-bottom: 30px;
   }
+
   .churches-container-wrapper br {
     display: none;
   }
+
   .about-heading-small {
     display: flex;
     flex-direction: column;
@@ -522,74 +605,94 @@
     left: 20px;
     font-size: 20px;
   }
+
   .about-heading-small .about-small-underline {
     width: 100px;
   }
+
   .about-left {
     height: 480px;
   }
+
   .about-right {
     padding: 0 20px;
   }
+
   .about-des {
     margin-top: 0;
     font-size: 15px;
     line-height: 26px;
   }
+
   .churches-container {
     padding: 0;
     margin: 0;
     margin-bottom: 180px;
   }
+
   .church-box {
     height: 160px;
     margin: 0;
     margin-bottom: 40px;
   }
+
   .curch-box-image-content {
     width: 150px;
   }
+
   .curch-box-text-content {
-    padding-left: 20px;
-    padding-top: 15px;
+    padding-left: 10px;
+    /* padding-top: 15px; */
   }
-  .curch-box-text-content h4 {
-    font-size: 11px;
+
+  .curch-box-text-content h1 {
+    font-size: 15px;
     font-weight: 600;
+    margin: 0;
   }
+
   .curch-box-text-content p {
     font-size: 11px;
     line-height: 20px;
     max-width: 165px;
+    margin: 0;
   }
+
   .church-box-btn {
     font-size: 12px;
     margin: 0;
     margin-top: 15px;
   }
+
   .about-left img {
     height: 400px;
     top: 45px;
   }
+
   .decor1 {
     width: 150px;
   }
+
   .about-right {
     margin: 0;
   }
+
   .decor-2 {
     width: 210px;
     height: 130px;
     bottom: 10px;
   }
+
   .about-btn {
     font-size: 14px;
     margin: 0;
   }
+
   .sacraments-container {
     padding: 0;
     align-items: flex-start;
   }
+
   .sacraments-heading {
     margin: 0;
     padding: 0;
@@ -597,11 +700,13 @@
     font-size: 22px;
     margin-left: 20px;
   }
+
   .sacraments-underline {
     width: 100px;
     margin-bottom: 20px;
     margin-top: 10px;
   }
+
   .sacraments-content-left,
   .sacraments-content-right {
     margin: 0;
@@ -610,23 +715,27 @@
     margin-bottom: 40px;
     display: inline-block;
   }
+
   .sacrament-number {
     font-size: 50px;
     margin: 0;
     margin-right: 10px;
   }
+
   .sacrament-content h2 {
     position: absolute;
     top: 15px;
     left: 70px;
     font-size: 19px;
   }
+
   .sacrament-content .sacrament-sub-heading2 {
     position: absolute;
     top: 17px;
     left: 80px;
     font-size: 18.5px;
   }
+
   .sacrament-content p {
     width: 100%;
     max-width: 100%;
@@ -636,10 +745,43 @@
     margin-bottom: 0;
     line-height: 23px;
   }
+
   .sacrament-btn {
     margin: 0;
     align-self: center;
     font-size: 13px;
     margin-bottom: 100px;
+    margin-left: 20px;
+  }
+
+  .about-left img {
+    height: 367px;
+    top: 50px;
+  }
+}
+
+
+@media (max-width : 400px) {
+  .landing-title {
+    font-size: 28px;
+  }
+  .curch-box-text-content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+  .church-box{
+    border-radius: 10px;
+  }
+}
+
+
+@media (max-width : 360px) {
+  .curch-box-image-content {
+    width: 130px;
+  }
+
+  .curch-box-text-content {
+    padding: 0px 10px;
   }
 }
