@@ -1,30 +1,29 @@
-.footer {
+.footer{
     width: 100%;
     background-color: #162930;
 }
 
-.footer-top {
+.footer-top{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 60px;
+    padding-top: 60px; 
 }
 
-.footer-top h5 {
+.footer-top h5{
     font-weight: 600;
     font-size: 25px;
     margin-bottom: 30px;
 }
-
-.footer-top p {
+.footer-top p{
     font-size: 18px;
 }
 
-.icon-container {
+.icon-container{
     display: flex;
 }
 
-.icon-container i {
+.icon-container i{
     font-size: 22px;
     color: black;
     background-color: white;
@@ -36,12 +35,10 @@
     border-radius: 50%;
     margin-right: 15px;
 }
-
-.small {
+.small{
     display: none;
 }
-
-.footer-bottom {
+.footer-bottom{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -51,59 +48,48 @@
 /* --------------------footer responsive---------------------- */
 
 @media (max-width : 1000px) {
-    .footer-top {
+    .footer-top{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 20px; 
 
     }
-
-    .footer-top p {
+    .footer-top p{
         font-size: 16px;
     }
-
-    .address-section,
-    .contact-section,
-    .follow-section {
+    .address-section,.contact-section,.follow-section{
         margin: 10px 0;
     }
-
-    .small {
+    .small{
         display: block;
 
     }
-
-    .big {
+    .big{
         display: none;
     }
-
-    .icon-container i {
+    .icon-container i{
         width: 30px;
         height: 30px;
         font-size: 15px;
         margin-right: 5px;
     }
-
-    .footer-bottom {
+    .footer-bottom{
         text-align: center;
         font-size: 11px;
         padding: 0;
         padding-top: 30px;
 
     }
-}
-
-
-
-@media (max-width : 500px) {
+  }
+  
+  @media (max-width : 500px) {
     .footer-top h5{
-        font-size: 21px;
+        font-size: 20px;
     }
     .footer-top p {
-        font-size: 13px;
+        font-size: 12px;
     }
-}
-
-/* --------------------footer responsive---------------------- */
+  }
+  /* --------------------footer responsive---------------------- */

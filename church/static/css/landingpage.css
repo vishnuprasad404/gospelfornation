@@ -773,6 +773,10 @@
   .church-box{
     border-radius: 10px;
   }
+  .underline {
+    margin-top: 1px;
+    margin-left: 5px;
+  }
 }
 
 
