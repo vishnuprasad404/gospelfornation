@@ -1038,6 +1038,11 @@ p {
 }
 
 @media (max-width: 700px) {
+  .navbar {
+    margin-top: 1px;
+    border-radius: 15px;
+    padding: 5px;
+}
   #prayer-centre .container {
     display: flex;
     flex-direction: column;
