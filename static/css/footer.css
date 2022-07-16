@@ -84,5 +84,12 @@
     }
   }
   
-  
+  @media (max-width : 500px) {
+    .footer-top h5{
+        font-size: 20px;
+    }
+    .footer-top p {
+        font-size: 12px;
+    }
+  }
   /* --------------------footer responsive---------------------- */
