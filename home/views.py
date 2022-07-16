@@ -12,6 +12,9 @@ def our_minister(request):
 def charity(request):
     return render(request, 'charity.html')
 
+def contact(request):
+    return render(request, 'contact.html')
+
 def services(request):
     return render(request, 'services.html')
 
