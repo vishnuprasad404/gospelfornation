@@ -18,9 +18,11 @@
 .container {
   padding-top: 1px;
 }
-.evt-container{
+
+.evt-container {
   padding: 20px;
 }
+
 .navbar {
   padding: 10px;
   border-radius: 10px;
@@ -155,12 +157,6 @@
     font-size: calc(.7rem + .5vw);
   }
 
-  .selection-btn:nth-child(1) {
-    background-color: #47CCFF;
-    border: none;
-    color: black;
-    font-weight: 600;
-  }
 }
 
 @media (max-width : 600px) {
@@ -253,7 +249,7 @@
   .fas {
     font-size: calc(.5rem + .5vw);
     margin: 0;
-    margin-right: 5px;
+    margin-right: 8px;
   }
 
   .heading {
