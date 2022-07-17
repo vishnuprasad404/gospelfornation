@@ -129,6 +129,10 @@
   color: rgb(189, 189, 189);
 }
 
+.video-player iframe{
+  height: 650px;
+}
+
 @media (max-width: 1000px) {
   .heading {
     width: 100%;
@@ -156,10 +160,16 @@
   .fas {
     font-size: calc(.7rem + .5vw);
   }
+  .video-player iframe{
+    height: 500px;
+  }
 
 }
 
 @media (max-width : 600px) {
+  .video-player iframe{
+    height: 300px;
+  }
   .selection-btn {
     margin: 8px;
     width: auto;
