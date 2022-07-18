@@ -651,10 +651,10 @@ p {
   .navbar {
     margin-top: 20px;
     border-radius: 15px;
-    padding: 5px;
+    padding: 5px !important;
   }
   .navbar-brand img {
-    width: 60px;
+    width: 60px !important;
   }
 }
 /* -------------------navbar responsive------------------ */

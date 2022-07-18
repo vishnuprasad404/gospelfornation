@@ -1,0 +1,12 @@
+.heading{
+    margin-top: 40px;
+    display: grid;
+    place-items: center;
+}
+.video-underline{
+    width: 80%;
+    height: 2px;
+    background-color: aqua;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
