@@ -57,7 +57,7 @@ p {
 }
 .navbar-nav .nav-item .nav-link {
   color: #355995;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 .navbar-nav .nav-item .btn-nav {
   padding: 9px;
@@ -169,7 +169,7 @@ p {
   margin-left: 50px;
   overflow: hidden;
   height: 570px;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -269,7 +269,8 @@ p {
 /* Services */
 .panel {
   border-bottom: 1px solid rgba(255, 255, 255, 0.395);
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 .panel-title a {
   color: white;
@@ -282,9 +283,6 @@ p {
 }
 .panel-img {
   margin-left: 30px;
-}
-.panel-img img {
-  width: 80%;
 }
 /* Services End */
 
@@ -472,27 +470,68 @@ p {
   background-color: cyan;
   margin-top: 15px;
 }
-.panel-title a {
+.panel-heading {
+  width: 100%;
+}
+.panel-title {
+  width: 100%;
+  /* background-color: green; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .accordian-title {
-  font-size: 35px !important;
-  margin-top: 20px;
+  font-size: 25px;
+  margin-top: 0;
   color: white;
-  background-color: red;
+  min-width: 400px;
 }
 .accordian-des {
   font-size: 18px;
 }
 .panel-title i {
   margin-left: 60px;
-  margin-bottom: 10px;
 }
 
+.panel-img {
+  width: 350px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
 .panel-img img {
   width: 100%;
+}
+.im-1 {
+  background-image: url("../img/group-kids-friends-arm-around-sitting-together.jpg");
+}
+.im-2 {
+  background-image: url("../img/kids-park-jumping.jpg");
+}
+.im-3 {
+  background-image: url("../img/Ladies\ meeting.jpg");
+}
+.im-4 {
+  background-image: url("../img/worships.jpg");
+}
+.im-5 {
+  background-image: url("../img/youth\ meeting.jpg");
+}
+.im-6 {
+  background-image: url("../img/Prayer\ cells.jpg");
+}
+.im-7 {
+  background-image: url("../img/fasting\ prayers.jpg");
+}
+.im-8 {
+  background-image: url("../img/group-kids-friends-arm-around-sitting-together.jpg");
+}
+.im-9 {
+  background-image: url("../img/Humatitarian.jpg");
 }
 
 .sacraments-heading {
@@ -645,7 +684,6 @@ p {
   .accordian-title {
     font-size: 20px !important;
     margin-top: 20px;
-    min-width: 300px;
   }
   .navbar {
     margin-top: 20px;
@@ -754,21 +792,6 @@ p {
   #our-minister .service-heading {
     font-size: 30px;
   }
-  .accordian-title {
-    font-size: 20px !important;
-    margin-top: 20px;
-    min-width: 200px;
-  }
-  .accordian-des {
-    font-size: 15px;
-  }
-  .panel-title i {
-    margin-left: 0;
-    margin-bottom: 0px;
-  }
-  .panel {
-    padding: 0;
-  }
 }
 
 @media (max-width: 770px) {
@@ -777,9 +800,6 @@ p {
     margin: 0;
     background-size: cover;
     background-position: center;
-  }
-  .panel-img img {
-    display: none;
   }
 }
 
@@ -795,14 +815,13 @@ p {
     width: 70px;
   }
   .accordian-title {
-    font-size: 20px !important;
-    margin-top: 20px;
+    min-width: 300px;
   }
   .accordian-des {
-    font-size: 15px;
+    font-size: 18px;
   }
   .panel-title i {
-    font-size: 14px;
+    margin-left: 60px;
   }
   .panel {
     padding: 0;
@@ -823,15 +842,25 @@ p {
     width: 70px;
     margin-bottom: 30px;
   }
+  .panel-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
   .accordian-title {
-    font-size: 16px !important;
-    margin-top: 20px;
+    font-size: 14px !important;
+    margin-top: 0;
+    color: white;
+    min-width: 200px;
   }
   .accordian-des {
-    font-size: 15px;
+    font-size: 18px;
   }
-  .panel {
-    padding: 0;
+  .panel-title i {
+    font-size: 13px;
+    margin-left: 60px;
   }
   .panel-group {
     margin-bottom: 50px;
@@ -1120,7 +1149,7 @@ p {
     display: block;
     bottom: -226em;
   }
-  .timing .timing-head{
+  .timing .timing-head {
     font-weight: bold;
     margin-bottom: 7px;
   }
@@ -1128,28 +1157,22 @@ p {
     max-width: 100%;
     line-height: 27px;
     font-size: 13.7px;
-}
-.prayer-center-content h3{
-  font-size: 20px;
-  font-weight: bolder;
-}
-.prayer-center-container img{
-  background-color: red;
-  height: 270px;
-}
+  }
+  .prayer-center-content h3 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .prayer-center-container img {
+    background-color: red;
+    height: 270px;
+  }
 }
 
-
-@media (max-height : 800px) {
+@media (max-height: 800px) {
   .p-decor-box {
     width: 40%;
     height: 140px;
     display: block;
     bottom: -202em;
   }
-}
-
-.panel-title,.text-cente{
-  background-color: red;
-  display: flex;
 }

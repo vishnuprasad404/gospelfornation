@@ -12,7 +12,7 @@
   color: white;
 }
 .container {
-  padding-top: 70px;
+  padding-top: 1px;
 }
 .navbar {
   padding: 10px;
@@ -24,11 +24,11 @@
   display: flex;
   justify-content: center;
 }
-.nav-item {
-  margin: 0 20px;
+/* .nav-item {
+  margin: 0 10px;
   font-size: 17px;
   color: #45669d;
-}
+} */
 .nav-link-a {
   color: #45669d;
   text-decoration: none;
@@ -53,12 +53,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.selection-btn:nth-child(1) {
-  background-color: #47ccff;
-  border: none;
-  color: black;
-  font-weight: 600;
 }
 
 .fas {
