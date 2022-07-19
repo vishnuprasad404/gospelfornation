@@ -235,7 +235,6 @@
   position: absolute;
   top: 80px;
   left: 70px;
-  background-color: green;
   background-image: url(../img/happy-man-freedom-sunrise-nature-successful-concept.jpg);
   background-size: cover;
   background-position: center;
@@ -353,7 +352,6 @@
 
 @media (max-width: 1400px) {
   .churches-container {
-    /* background-color: grey; */
     display: block;
   }
 
