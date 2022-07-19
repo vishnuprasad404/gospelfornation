@@ -481,8 +481,7 @@ p {
   font-size: 35px !important;
   margin-top: 20px;
   color: white;
-  min-width: 500px;
-  max-width: 400px;
+  background-color: red;
 }
 .accordian-des {
   font-size: 18px;
@@ -797,7 +796,7 @@ p {
   }
   .accordian-title {
     font-size: 20px !important;
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .accordian-des {
     font-size: 15px;
@@ -1148,4 +1147,9 @@ p {
     display: block;
     bottom: -202em;
   }
+}
+
+.panel-title,.text-cente{
+  background-color: red;
+  display: flex;
 }
