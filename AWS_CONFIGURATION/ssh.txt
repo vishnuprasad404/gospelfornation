@@ -1,2 +1,1 @@
-ssh -i "gospelfornation.pem" ubuntu@ec2-15-207-99-192.ap-south-1.compute.amazonaws.com
-
+ssh -i "gospelfornation_server.pem" ubuntu@ec2-3-110-169-17.ap-south-1.compute.amazonaws.com
