@@ -6,6 +6,7 @@
 a {
   text-decoration: none;
   cursor: pointer;
+  color: white;
 }
 body {
   background-color: rgba(10, 10, 10, 0.9);

@@ -171,12 +171,16 @@
   /* margin-top: 25px; */
   background: none;
   border: none;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
   margin-bottom: 20px;
   justify-content: flex-end;
-  position: absolute;
-  bottom: 17px;
+  /* position: absolute;
+  bottom: 17px; */
+  color: white;
+}
+.church-box-btn a{
+  color: #00bbff !important;
 }
 
 .curch-box-image-content {
