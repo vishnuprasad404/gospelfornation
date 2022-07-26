@@ -22,7 +22,9 @@
 .evt-container {
   padding: 20px;
 }
-
+.evt-icons{
+  margin-right: 10px;
+}
 /* .navbar {
   padding: 10px;
   border-radius: 10px;
@@ -222,6 +224,11 @@
     padding: 8px;
     font-size: calc(.6rem + .7vw);
   }
+  .evt-icons{
+    margin-right: 5px;
+    width: 13px;
+  }
+
 
   .fas {
     font-size: calc(.5rem + .5vw);
@@ -257,7 +264,7 @@
 @media (max-width: 390px) {
   .selection-btn {
     margin: 5px;
-    padding: 5px;
+    padding: 6px 7px;
     font-size: calc(.6rem + .7vw);
   }
 
@@ -269,6 +276,10 @@
 
   .heading {
     font-size: calc(1rem + 1vw);
+  }
+  .evt-icons{
+    margin-right: 5px;
+    width: 13px;
   }
 
 }

@@ -90,6 +90,10 @@
   color: black;
 }
 
+.c-link{
+  margin-right: 20px; 
+}
+
 @media (max-width: 1200px) {
   .contact-container {
     display: grid;

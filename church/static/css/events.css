@@ -22,7 +22,9 @@
 .evt-container {
   padding: 20px;
 }
-
+.evt-icons{
+  margin-right: 10px;
+}
 /* .navbar {
   padding: 10px;
   border-radius: 10px;
@@ -269,6 +271,10 @@
 
   .heading {
     font-size: calc(1rem + 1vw);
+  }
+  .evt-icons{
+    margin-right: 2px;
+    width: 20px;
   }
 
 }
