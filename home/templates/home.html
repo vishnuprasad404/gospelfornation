@@ -55,7 +55,7 @@
         </p>
         <div class="landing-btns">
           <button class="btn1" onclick="goAbout()">Visit US This Sunday</button>
-          <button class="btn2" onclick="goAbout()">
+          <button class="btn2" onclick="goMap()">
             View Location <i class="fas fa-arrow-right"></i>
           </button>
         </div>
@@ -188,10 +188,8 @@
       <div class="footer-top">
         <section class="address-section">
           <h5>Address</h5>
-          <p class="small">12 Field Road 12 Field Road</p>
-
-          <p class="big">12 Field Road</p>
-          <p class="big">High Wycombe</p>
+          <p>12 Field Road</p>
+          <p>High Wycombe</p>
           <p>HP12 4LR</p>
         </section>
         <section class="contact-section">
@@ -202,9 +200,10 @@
         <section class="follow-section">
           <h5>Follow Us</h5>
           <div class="icon-container">
-            <i class="fa-brands fa-google-plus-g"></i><i class="fa-brands fa-twitter" style="margin-left: 5px"></i><i
-              class="fa-brands fa-facebook-f" style="margin-left: 5px"></i>
-            <i class="fa-brands fa-instagram" style="margin-left: 5px"></i>
+            <i class="fa-brands fa-youtube" onclick="goYoutube()"></i
+            ><i class="fa-brands fa-twitter" onclick="goTwit()" style="margin-left: 5px"></i
+            ><i class="fa-brands fa-facebook-f" onclick="goFb()" style="margin-left: 5px"></i>
+            <i class="fa-brands fa-instagram"onclick="goInsta() style="margin-left: 5px"></i>
           </div>
         </section>
       </div>
@@ -223,6 +222,30 @@
     function goAbout(){
       window.location.href = '/church/about'
     }
+
+    function goMap(){
+      window.location.href = "https://www.google.com/maps/place/12+Field+Rd,+High+Wycombe+HP12+4LR,+UK/@51.6250551,-0.7878825,17z/data=!4m5!3m4!1s0x48768a439bc7e6e7:0xdc9643b787856cf0!8m2!3d51.6250351!4d-0.7884726"
+
+    }
+
+
+function goYoutube(){
+  window.location.href = "https://www.youtube.com/channel/UC6RJQprq8X-yLUlVaOI1XHQ"
+}
+
+function goFb(){
+  window.location.href = "https://www.google.com/url?sa=t&source=web&rct=j&url=https://m.facebook.com/oxfordandwycombeprayercentre/&ved=2ahUKEwjQuoT3xM_4AhUvQkEAHaJSBeIQFnoECAYQBQ&usg=AOvVaw08t821lKnrZRqp8jz7OmgX"
+}
+
+function goTwit(){
+  window.location.href = ""
+}
+
+function goInsta(){
+  window.location.href = ""
+}
+
+
   </script>
 
 </body>
