@@ -108,6 +108,9 @@
   margin-top: 65px;
   margin-bottom: 20px;
 }
+.evt-icons{
+  margin-right: 10px;
+}
 
 .footer {
   width: 100%;
@@ -203,6 +206,11 @@
   .content-section{
     padding: 20px;
   }
+  .evt-icons{
+    margin-right: 5px;
+    width: 13px;
+  }
+
 }
 
 @media (max-width: 400px) {
