@@ -20,7 +20,7 @@ h6 {
   font-size: 17px;
   margin-bottom: 20px;
 }
-p {
+p,small {
   font-family: "Helvetica", "Arial", sans-serif !important;
 }
 i,
@@ -534,7 +534,7 @@ button {
   background-image: url("../img/fasting\ prayers.jpg");
 }
 .im-8 {
-  background-image: url("../img/group-kids-friends-arm-around-sitting-together.jpg");
+  background-image: url("../img/family.jpg");
 }
 .im-9 {
   background-image: url("../img/Humatitarian.jpg");

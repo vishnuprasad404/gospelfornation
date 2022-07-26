@@ -179,7 +179,7 @@
   bottom: 17px; */
   color: white;
 }
-.church-box-btn a{
+.church-box-btn a {
   color: #00bbff !important;
 }
 
@@ -447,7 +447,7 @@
 
 @media (max-width: 650px) {
   .churches-container-wrapper a {
-    display: none;
+    font-size: 13px;
   }
 
   .our-churches-hd {
