@@ -713,13 +713,11 @@
     font-size: 22px;
     margin-left: 20px;
   }
-
   .sacraments-underline {
-    width: 100px;
+    width: 90%;
     margin-bottom: 20px;
-    margin-top: 10px;
-  }
-
+    margin-top: -2px;
+}
   .sacraments-content-left,
   .sacraments-content-right {
     margin: 0;
@@ -771,6 +769,7 @@
     height: 367px;
     top: 50px;
   }
+
 }
 
 @media (max-width: 400px) {
