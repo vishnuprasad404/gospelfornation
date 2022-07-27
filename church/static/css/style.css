@@ -182,6 +182,13 @@ button {
 .about-church-content {
   margin-left: 30px;
 }
+.about-church-wrapper{
+  display: flex;
+}
+.about-church-conten{
+  width: 50%;
+}
+
 .about-church-para {
   font-size: 18px;
   line-height: 34px;
@@ -394,7 +401,7 @@ button {
   display: flex;
   /* background-color: red; */
 }
-.p-decor-box {
+/* .p-decor-box {
   width: 500px;
   height: 200px;
   background-color: #192a30;
@@ -402,7 +409,7 @@ button {
   left: 0;
   z-index: -111;
   bottom: -150em;
-}
+} */
 .about-church-wrapper {
   padding-top: 60px;
 }
@@ -885,8 +892,6 @@ button {
 
 @media (max-width: 1400px) {
   .our-minister-container {
-    flex-wrap: wrap-reverse;
-    margin-top: 45px;
   }
   .our-minister-heading {
     font-size: calc(1.1rem + 1vw);
@@ -977,13 +982,12 @@ button {
 
 /* -----------------------------about-churches responsive-------------------------- */
 
-@media (max-width: 1200px) {
-  .about-church-wrapper {
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+@media (max-width: 1220px) {
+  .about-church-wrapper{
+    display: flex;
+  }
+  .decor-box1 {
+    width: 30%;
   }
   .decor-box2 {
     display: none;
@@ -997,28 +1001,24 @@ button {
     width: 100px;
     margin-top: 5px;
   }
-  .about-church-conten {
+  /* .about-church-conten {
     width: 100% !important;
   }
   .about-church-para {
     width: 100%;
     margin-top: 40px;
-  }
-  .about-church-img {
+  } */
+  /* .about-church-img {
     padding: 0;
     margin: 0;
-  }
-  .decor-box1 {
-    width: 70%;
-    height: 140px;
-    margin-bottom: -150px;
-  }
-  #hd-1 {
+  } */
+
+  /* #hd-1 {
     display: none;
   }
   #hd-2 {
     display: block;
-  }
+  } */
   .p-decor-box {
     display: none;
   }
@@ -1028,12 +1028,12 @@ button {
     margin-top: 50px;
   }
   #prayer-centre {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1000px) {
   .black-box-row {
     width: 100%;
   }
@@ -1173,14 +1173,5 @@ button {
   .prayer-center-container img {
     background-color: red;
     height: 270px;
-  }
-}
-
-@media (max-height: 800px) {
-  .p-decor-box {
-    width: 40%;
-    height: 140px;
-    display: block;
-    bottom: -202em;
   }
 }

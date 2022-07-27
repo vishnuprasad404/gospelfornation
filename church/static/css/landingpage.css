@@ -14,7 +14,7 @@
 
 .landing-page {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("../img/bg.png");
   background-size: cover;
   background-position: center;
@@ -599,13 +599,16 @@
 
   @media (max-width: 500px) {
     .landing-page {
-      height: 65vh;
+      max-height: 65vh !important;
       background-image: none;
       background-image: url("../img/bg-medium.jpg");
+      background-position: top;
+      background-size: auto 70vh;
+      background-repeat: no-repeat;
     }
 
     .landing-title {
-      margin-top: 307px;
+      margin-top: 340px;
       max-width: 600px;
       font-weight: 600;
       line-height: 42px;
@@ -679,7 +682,7 @@
     .our-churches-hd {
       font-size: 20px;
       width: max-content;
-      margin-top: 290px;
+      margin-top: 50px;
       margin-bottom: 0;
       display: block;
     }
@@ -953,5 +956,12 @@
       height: 159px;
       margin-bottom: 30px;
     }
+  }
+}
+
+
+@media (min-width : 800px) {
+  .landing-page {
+    padding-bottom: 50px;
   }
 }
