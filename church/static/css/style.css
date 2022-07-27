@@ -223,7 +223,9 @@ button {
   z-index: -100;
 }
 /* About Churches End */
-
+.underline{
+  border-radius: 10px;
+}
 /* Sacraments */
 #sacraments {
   padding-top: 40px;

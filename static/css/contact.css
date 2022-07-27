@@ -94,7 +94,7 @@
   margin-right: 20px; 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1120px) {
   .contact-container {
     display: grid;
     place-items: center;
@@ -104,6 +104,27 @@
   .contact-right {
     width: auto;
   }
+
+  .contact-form-container {
+    background-color: #15272e;
+    width: 496px;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 0px;
+}
+}
+
+@media (max-width: 1100px) {
+  .contact-container {
+    display: grid;
+    place-items: center;
+    margin-top: 40px;
+  }
+  .contact-left,
+  .contact-right {
+    width: auto;
+  }
+
 }
 
 @media (max-width: 600px) {
@@ -138,4 +159,10 @@
   .input-box .topic {
     width: 100%;
   }
+  .contact-form-container {
+    background-color: #15272e;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 0px;
 }
