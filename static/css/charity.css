@@ -150,5 +150,9 @@
         z-index: -111;
         right: 0;
       }
+      .charity-container {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
   }
   
