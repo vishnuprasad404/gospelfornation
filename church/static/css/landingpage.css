@@ -965,3 +965,18 @@
     padding-bottom: 50px;
   }
 }
+@media (max-width : 800px) {
+  .landing-page {
+    padding-bottom: 50px;
+    background: red !important;
+  }
+ 
+  .landing-page {
+    max-height: 90vh !important;
+    background-image: none;
+    background-image: url("../img/bg-medium.jpg");
+    background-position: top;
+    background-size: auto 70vh;
+    background-repeat: no-repeat;
+  }
+}

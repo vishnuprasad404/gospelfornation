@@ -20,7 +20,8 @@ h6 {
   font-size: 17px;
   margin-bottom: 20px;
 }
-p,small {
+p,
+small {
   font-family: "Helvetica", "Arial", sans-serif !important;
 }
 i,
@@ -182,10 +183,10 @@ button {
 .about-church-content {
   margin-left: 30px;
 }
-.about-church-wrapper{
+.about-church-wrapper {
   display: flex;
 }
-.about-church-conten{
+.about-church-conten {
   width: 50%;
 }
 
@@ -230,7 +231,7 @@ button {
   z-index: -100;
 }
 /* About Churches End */
-.underline{
+.underline {
   border-radius: 10px;
 }
 /* Sacraments */
@@ -891,8 +892,6 @@ button {
 /* -----------------------------our minister- responsive-------------- */
 
 @media (max-width: 1400px) {
-  .our-minister-container {
-  }
   .our-minister-heading {
     font-size: calc(1.1rem + 1vw);
     display: block;
@@ -920,16 +919,16 @@ button {
     margin: 0;
   }
   .our-minister-decor-box1 {
-    width: 500px;
+    width: 40%;
     height: 200px;
     background-color: #192a30;
     position: absolute;
     z-index: -111;
     left: 0;
-    bottom: -200px;
+    bottom: 50px;
   }
   .our-minister-decor-box2 {
-    width: 500px;
+    width: 30%;
     height: 200px;
     top: 250px;
   }
@@ -983,7 +982,7 @@ button {
 /* -----------------------------about-churches responsive-------------------------- */
 
 @media (max-width: 1220px) {
-  .about-church-wrapper{
+  .about-church-wrapper {
     display: flex;
   }
   .decor-box1 {
@@ -1001,24 +1000,12 @@ button {
     width: 100px;
     margin-top: 5px;
   }
-  /* .about-church-conten {
-    width: 100% !important;
+  .about-church-img {
+    width: 446px;
+    margin-left: 0;
+    overflow: hidden;
+    height: 500px;
   }
-  .about-church-para {
-    width: 100%;
-    margin-top: 40px;
-  } */
-  /* .about-church-img {
-    padding: 0;
-    margin: 0;
-  } */
-
-  /* #hd-1 {
-    display: none;
-  }
-  #hd-2 {
-    display: block;
-  } */
   .p-decor-box {
     display: none;
   }
@@ -1030,10 +1017,15 @@ button {
   #prayer-centre {
     padding-top: 60px;
     padding-bottom: 80px;
-}
+  }
 }
 
 @media (max-width: 1000px) {
+  .our-minister-container {
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    margin-top: 50px;
+  }
   .black-box-row {
     width: 100%;
   }
@@ -1071,6 +1063,40 @@ button {
     max-width: 100%;
     line-height: 27px;
   }
+
+  .about-church-wrapper {
+    flex-wrap: wrap-reverse;
+    margin-top: 0;
+    padding: 0;
+  }
+  .about-church-conten {
+    width: 100%;
+  }
+  .about-church-img {
+    width: 100%;
+    margin-left: 0;
+    overflow: hidden;
+    height: 600px;
+}
+
+  #hd-1{
+    display: none;
+  }
+  #hd-2{
+    display: block;
+  }
+
+  .about-church-para {
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: normal;
+    color: #cecece;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #about-churches {
+    padding-bottom: 0;
+}
 }
 
 @media (max-width: 700px) {
@@ -1085,6 +1111,7 @@ button {
     padding: 0;
   }
   .about-church-wrapper {
+    width: 100%;
     align-items: center;
     justify-content: flex-start;
     padding: 0;
@@ -1173,5 +1200,11 @@ button {
   .prayer-center-container img {
     background-color: red;
     height: 270px;
+  }
+}
+
+@media (max-height: 800px) {
+  .our-minister-decor-box1 {
+    display: none;
   }
 }
