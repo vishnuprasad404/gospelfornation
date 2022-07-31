@@ -1015,8 +1015,8 @@ button {
     margin-top: 50px;
   }
   #prayer-centre {
-    padding-top: 60px;
-    padding-bottom: 80px;
+    padding-top: 31px;
+    padding-bottom: 0px;
   }
 }
 
@@ -1077,12 +1077,12 @@ button {
     margin-left: 0;
     overflow: hidden;
     height: 600px;
-}
+  }
 
-  #hd-1{
+  #hd-1 {
     display: none;
   }
-  #hd-2{
+  #hd-2 {
     display: block;
   }
 
@@ -1096,7 +1096,7 @@ button {
   }
   #about-churches {
     padding-bottom: 0;
-}
+  }
 }
 
 @media (max-width: 700px) {
@@ -1132,6 +1132,11 @@ button {
     margin-top: -2px;
     height: 3px;
     margin-bottom: 30px;
+  }
+  .decor-box1 {
+    width: 70%;
+    height: 130px;
+    bottom: -8px;
   }
 }
 
