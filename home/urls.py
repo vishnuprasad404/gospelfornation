@@ -15,5 +15,5 @@ urlpatterns = [
     path('sacraments', views.sacraments),
     path('church/about', views.about_church),
     path('contact', views.contact),
-
+    path('message/send', views.message_send)
 ]

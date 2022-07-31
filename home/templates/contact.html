@@ -70,43 +70,51 @@
           </div>
           <div class="contact-right">
             <div class="contact-form-container">
-              <div class="form">
-                <div class="name-and-email">
-                  <div class="input-box">
-                    <label for="">Name</label>
-                    <input type="text" placeholder="Your Name" />
+              <form action="/message/send" method="post">
+                {% csrf_token %}
+                <div class="form">
+                  <div class="name-and-email">
+                    <div class="input-box">
+                      <label for="">Name</label>
+                      <input required name="name" type="text" placeholder="Your Name" />
+                    </div>
+                    <div class="input-box">
+                      <label for="">Email</label>
+                      <input required name="email" type="text" placeholder="Your Email" />
+                    </div>
                   </div>
                   <div class="input-box">
-                    <label for="">Email</label>
-                    <input type="text" placeholder="Your Email" />
+                    <label for="">Phone</label>
+                    <input
+                      name="phone"
+                      class="topic"
+                      type="text"
+                      placeholder="Phone number (optional)"
+                    />
                   </div>
+                  <div class="input-box">
+                    <label for="">Topic</label>
+                    <input
+                      required
+                      name="topic"
+                      class="topic"
+                      type="text"
+                      placeholder="Enter your Topic"
+                    />
+                  </div>
+                  <div class="input-box">
+                    <label for="">Message</label>
+                    <textarea
+                      required
+                      name="message"
+                      cols="30"
+                      rows="7"
+                      placeholder="Write your message"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="submit">Submit</button>
                 </div>
-                <div class="input-box">
-                  <label for="">Phone</label>
-                  <input
-                    class="topic"
-                    type="text"
-                    placeholder="Phone number (optional)"
-                  />
-                </div>
-                <div class="input-box">
-                  <label for="">Topic</label>
-                  <input
-                    class="topic"
-                    type="text"
-                    placeholder="Enter your Topic"
-                  />
-                </div>
-                <div class="input-box">
-                  <label for="">Message</label>
-                  <textarea
-                    cols="30"
-                    rows="7"
-                    placeholder="Write your message"
-                  ></textarea>
-                </div>
-                <button class="submit">Submit</button>
-              </div>
+              </form>
             </div>
           </div>
         </div>

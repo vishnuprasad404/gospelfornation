@@ -1,5 +1,7 @@
 from .models import Event, Photo, Video
-from django.shortcuts import render
+from django.shortcuts import redirect, render
+from django.core.mail import send_mail, EmailMessage
+from django.conf import settings
 
 # Create your views here.
 
@@ -57,4 +59,28 @@ def event_details(request):
 
 def about_church(request):
     return render(request, 'about-churches.html')
+
+
+# message
+def message_send(request):
+    if request.method == 'POST':
+        name = request.POST['name']
+        email = request.POST['email']
+        phone = request.POST['phone']
+        topic = request.POST['topic']
+        space = " "
+        newmessage = request.POST['message']
+
+        subject = 'Gospelfornations'
+        message = f"""
+        {name}
+        {phone}
+        {email}
+        {topic}
+        {space}
+        {newmessage}"""
+        recipient = "anandh4411@gmail.com"
+        send_mail(subject, message, settings.EMAIL_HOST_USER, [recipient], fail_silently=False)
+        return redirect(home)
+# message end
 
