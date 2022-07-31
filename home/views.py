@@ -71,12 +71,11 @@ def message_send(request):
         space = " "
         newmessage = request.POST['message']
 
-        subject = 'Gospelfornations'
+        subject = topic
         message = f"""
         {name}
         {phone}
         {email}
-        {topic}
         {space}
         {newmessage}"""
         recipient = "anandh4411@gmail.com"
