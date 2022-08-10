@@ -78,7 +78,7 @@ def message_send(request):
         {email}
         {space}
         {newmessage}"""
-        recipient = "wpcgospelfornations@gmail.com"
+        recipient = "Abinabrahamgt30@gmail.com"
         send_mail(subject, message, settings.EMAIL_HOST_USER, [recipient], fail_silently=False)
         return redirect(home)
 # message end
