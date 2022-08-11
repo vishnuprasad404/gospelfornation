@@ -512,7 +512,6 @@ button {
 .panel-img {
   width: 350px;
   height: 250px;
-  background-color: red;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -523,8 +522,20 @@ button {
 .panel-img img {
   width: 100%;
 }
+.im-1,
+.im-2,
+.im-3,
+.im-4,
+.im-5,
+.im-6,
+.im-6,
+.im-7,
+.im-8,
+.im-9 {
+  background-image: url("../img/fish.png");
+}
 
-.im-1 {
+/* .im-1 {
   background-image: url("../img/group-kids-friends-arm-around-sitting-together.jpg");
 }
 .im-2 {
@@ -534,7 +545,7 @@ button {
   background-image: url("../img/Ladies\ meeting.jpg");
 }
 .im-4 {
-  /* background-image: url("../img/worships.jpg"); */
+  background-image: url("../img/worships.jpg");
 }
 .im-5 {
   background-image: url("../img/youth\ meeting.jpg");
@@ -550,7 +561,7 @@ button {
 }
 .im-9 {
   background-image: url("../img/Humatitarian.jpg");
-}
+} */
 
 .sacraments-heading {
   width: max-content;
