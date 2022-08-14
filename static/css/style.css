@@ -522,46 +522,35 @@ button {
 .panel-img img {
   width: 100%;
 }
-.im-1,
-.im-2,
-.im-3,
-.im-4,
-.im-5,
-.im-6,
-.im-6,
-.im-7,
-.im-8,
-.im-9 {
-  background-image: url("../img/d1.jpg");
-}
 
-/* .im-1 {
-  background-image: url("../img/group-kids-friends-arm-around-sitting-together.jpg");
+
+.im-1 {
+  background-image: url("../img/sunday\ school.jpg");
 }
 .im-2 {
-  background-image: url("../img/kids-park-jumping.jpg");
+  background-image: url("../img/kingdom\ kids.jpg");
 }
 .im-3 {
-  background-image: url("../img/Ladies\ meeting.jpg");
+  background-image: url("../img/ladies\ meeting.jpg");
 }
 .im-4 {
-  background-image: url("../img/worships.jpg");
+  background-image: url("../img/worship\ services.jpg");
 }
 .im-5 {
   background-image: url("../img/youth\ meeting.jpg");
 }
 .im-6 {
-  background-image: url("../img/Prayer\ cells.jpg");
+  background-image: url("../img/prayer\ cells.jpg");
 }
 .im-7 {
   background-image: url("../img/fasting\ prayers.jpg");
 }
 .im-8 {
-  background-image: url("../img/family.jpg");
+  background-image: url("../img/family\ conference.jpg");
 }
 .im-9 {
-  background-image: url("../img/Humatitarian.jpg");
-} */
+  background-image: url("../img/community\ services.jpg");
+}
 
 .sacraments-heading {
   width: max-content;
