@@ -106,9 +106,14 @@ button {
   margin-top: 10px;
 }
 .landing-location-btn,
-.landing-location-btn i {
-  color: #47ccff;
+.landing-location-btn i,a {
+  color: #47ccff !important;
 }
+.landing-location-btn:active{
+  color: none; 
+
+}
+
 .landing-btn-wrapper {
   padding-bottom: 80px;
 }

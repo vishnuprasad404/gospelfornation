@@ -107,8 +107,13 @@ button {
 }
 .landing-location-btn,
 .landing-location-btn i {
-  color: #47ccff;
+  color: #47ccff !important;
 }
+.landing-location-btn:active{
+  color: none; 
+
+}
+
 .landing-btn-wrapper {
   padding-bottom: 80px;
 }
@@ -979,6 +984,10 @@ button {
     margin-bottom: 70px;
     padding: 0 !important;
   }
+}
+
+.panel .fa-caret-down{
+  font-size: 20px !important;
 }
 
 /* -----------------------------about-churches responsive-------------------------- */

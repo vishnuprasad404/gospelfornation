@@ -14,10 +14,21 @@
   <body>
     <section id="about-churches">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
-          <a class="navbar-brand" href="/"><img src="{% static 'img/logo.png' %}" alt="logo" /></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light justify-content-between"
+        >
+          <a class="navbar-brand" href="/"
+            ><img src="{% static 'img/logo.png' %}" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -41,7 +52,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact Us</a>
               </li>
-              
             </ul>
           </div>
         </nav>
@@ -62,9 +72,7 @@
             </p>
           </div>
 
-          <div
-            class="about-church-img"
-          ></div>
+          <div class="about-church-img"></div>
           <h1 class="about-church-heading" id="hd-2">
             About Churches
             <p class="about-underline"></p>
@@ -77,9 +85,11 @@
 
     <section id="prayer-centre">
       <div class="container">
-        <div class="row black-box-row" >
+        <div class="row black-box-row">
           <div class="col-md-6 black-box-col">
-            <h6 class="prayer-centre-title" id="waycombe">Wycombe Prayer Centre  </h6>
+            <h6 class="prayer-centre-title" id="waycombe">
+              Wycombe Prayer Centre  
+            </h6>
             <p class="prayer-centre-para">
               High Wycombe, often referred to as Wycombe, is a large market town
               in Buckinghamshire, England and one-time 'Furniture Capital of
@@ -95,7 +105,9 @@
               wholeheartedly welcome you to our regular services.
             </p>
             <div class="prayer-centre-location">
-              <a class="landing-location-btn" href="#"
+              <a
+                class="landing-location-btn"
+                href="https://www.google.com/maps/place/12+Field+Rd,+High+Wycombe+HP12+4LR,+UK/@51.6250551,-0.7878825,17z/data=!4m5!3m4!1s0x48768a439bc7e6e7:0xdc9643b787856cf0!8m2!3d51.6250351!4d-0.7884726"
                 >View Location
                 <i class="fa-solid fa-arrow-right" style="margin-left: 8px"></i
               ></a>
@@ -140,9 +152,11 @@
 
     <section id="prayer-centre">
       <div class="container">
-        <div class="row black-box-row" >
+        <div class="row black-box-row">
           <div class="col-md-6 black-box-col">
-            <h6 class="prayer-centre-title" id="oxford">Oxford Prayer Center</h6>
+            <h6 class="prayer-centre-title" id="oxford">
+              Oxford Prayer Center
+            </h6>
             <p class="prayer-centre-para">
               God emancipated humankind from the bondage of sin and slavery. His
               ultimate purpose of redemption is indeed for us to dwell in his
@@ -163,7 +177,9 @@
               revival and transformation..
             </p>
             <div class="prayer-centre-location">
-              <a class="landing-location-btn" href="#"
+              <a
+                class="landing-location-btn"
+                href="https://www.google.com/maps/place/12+Field+Rd,+High+Wycombe+HP12+4LR,+UK/@51.6250551,-0.7878825,17z/data=!4m5!3m4!1s0x48768a439bc7e6e7:0xdc9643b787856cf0!8m2!3d51.6250351!4d-0.7884726"
                 >View Location
                 <i class="fa-solid fa-arrow-right" style="margin-left: 8px"></i
               ></a>
@@ -221,7 +237,7 @@
                 meetings and regular systematic Bible studies. Please do get in
                 touch for fellowship and further details. Contact Details
               </p>
-              <button class="p-btn">
+              <button class="p-btn" onclick="goMap()">
                 View Location <i class="fa-solid fa-arrow-right"></i>
               </button>
             </div>
@@ -247,9 +263,21 @@
           <h5>Follow Us</h5>
           <div class="icon-container">
             <i class="fa-brands fa-youtube" onclick="goYoutube()"></i
-            ><i class="fa-brands fa-twitter" onclick="goTwit()" style="margin-left: 5px"></i
-            ><i class="fa-brands fa-facebook-f" onclick="goFb()" style="margin-left: 5px"></i>
-            <i class="fa-brands fa-instagram"onclick="goInsta() style="margin-left: 5px"></i>
+            ><i
+              class="fa-brands fa-twitter"
+              onclick="goTwit()"
+              style="margin-left: 5px"
+            ></i
+            ><i
+              class="fa-brands fa-facebook-f"
+              onclick="goFb()"
+              style="margin-left: 5px"
+            ></i>
+            <i
+              class="fa-brands fa-instagram"
+              onclick="goInsta()"
+              style="margin-left: 5px"
+            ></i>
           </div>
         </section>
       </div>
@@ -267,23 +295,28 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
 
     <script>
-
-      function goYoutube(){
-        window.location.href = "https://www.youtube.com/channel/UC6RJQprq8X-yLUlVaOI1XHQ"
+      function goMap() {
+        window.location.href =
+          "https://www.google.com/maps/place/12+Field+Rd,+High+Wycombe+HP12+4LR,+UK/@51.6250551,-0.7878825,17z/data=!4m5!3m4!1s0x48768a439bc7e6e7:0xdc9643b787856cf0!8m2!3d51.6250351!4d-0.7884726";
       }
 
-      function goFb(){
-        window.location.href = "https://www.google.com/url?sa=t&source=web&rct=j&url=https://m.facebook.com/oxfordandwycombeprayercentre/&ved=2ahUKEwjQuoT3xM_4AhUvQkEAHaJSBeIQFnoECAYQBQ&usg=AOvVaw08t821lKnrZRqp8jz7OmgX"
+      function goYoutube() {
+        window.location.href =
+          "https://www.youtube.com/channel/UC6RJQprq8X-yLUlVaOI1XHQ";
       }
 
-      function goTwit(){
-        window.location.href = ""
+      function goFb() {
+        window.location.href =
+          "https://www.google.com/url?sa=t&source=web&rct=j&url=https://m.facebook.com/oxfordandwycombeprayercentre/&ved=2ahUKEwjQuoT3xM_4AhUvQkEAHaJSBeIQFnoECAYQBQ&usg=AOvVaw08t821lKnrZRqp8jz7OmgX";
       }
 
-      function goInsta(){
-        window.location.href = ""
+      function goTwit() {
+        window.location.href = "";
       }
 
+      function goInsta() {
+        window.location.href = "";
+      }
     </script>
   </body>
 </html>
