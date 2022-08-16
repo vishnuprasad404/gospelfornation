@@ -632,8 +632,9 @@
     }
 
     .btn1 {
-      width: auto;
-      font-size: 12px;
+      /* font-size: 12px; */
+      width: 120px;
+  height: 45px;
       margin-left: 10px;
     }
 
@@ -940,9 +941,7 @@
     .about-btn {
       margin-top: 25px !important;
     }
-    .btn1 {
-      padding: 10px 20px;
-    }
+   
   }
 
   @media (max-width: 360px) {
