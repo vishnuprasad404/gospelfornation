@@ -180,6 +180,7 @@
   bottom: 17px; */
   color: white;
 }
+
 .church-box-btn a {
   color: #47ccff !important;
 }
@@ -194,9 +195,11 @@
   position: absolute;
   right: 0;
 }
+
 .cim-1 {
   background-image: url("../img/wycombe.jpg");
 }
+
 .cim-2 {
   background-image: url("../img/oxford\ church.jpg");
 }
@@ -376,10 +379,12 @@
   .decor-2 {
     width: 70%;
   }
+
   .curch-box-image-content {
     width: 200px;
     height: 100%;
   }
+
   .about-des {
     font-size: 22px;
   }
@@ -389,24 +394,30 @@
       margin: 0;
       width: 49%;
     }
+
     .churches-container {
       justify-content: space-between;
     }
+
     .curch-box-image-content {
       width: 170px;
       height: 100%;
     }
+
     .about-des {
       font-size: 22px;
     }
+
     .about-left,
     .about-right {
       width: 50%;
     }
+
     .curch-box-text-content p {
       max-width: 255px;
       font-size: 15px;
     }
+
     .church-container-wrapper {
       width: 100% !important;
       max-width: 100% !important;
@@ -419,6 +430,7 @@
     .about-churches-container {
       height: auto;
     }
+
     .about-heading {
       display: none;
     }
@@ -439,6 +451,7 @@
     .about-des {
       font-size: calc(0.7rem + 1vw);
     }
+
     .decor-2 {
       width: 70%;
     }
@@ -466,6 +479,7 @@
       top: 115px;
       left: 53px;
     }
+
     .sacrement-con {
       width: 100% !important;
       max-width: 100% !important;
@@ -473,69 +487,85 @@
       margin: 0 !important;
     }
   }
+
   @media (max-width: 960px) {
     .curch-box-image-content {
       width: 157px;
     }
+
     .curch-box-text-content p {
       max-width: 240px;
       font-size: 14.5px;
     }
+
     .curch-box-text-content {
       padding: 14px;
     }
+
     .church-box {
       height: 195px;
     }
+
     .about-churches-container {
       width: 100%;
       height: auto;
       margin: 50px 0;
       display: block;
     }
+
     .about-right,
     .about-left {
       width: 100%;
     }
   }
+
   @media (max-width: 880px) {
     .curch-box-image-content {
       width: 157px;
     }
+
     .curch-box-text-content p {
       max-width: 240px;
       font-size: 14.5px;
     }
+
     .curch-box-text-content {
       padding: 14px;
     }
+
     .churches-container {
       display: block;
     }
+
     .church-box {
       width: 100%;
       height: 195px;
       margin: 20px 0;
     }
+
     .about-churches-container {
       width: 100%;
       margin: 50px 0;
       display: block;
       padding: 20px;
     }
+
     .about-left {
       display: block;
     }
+
     .about-img {
       position: static;
       width: 100%;
       top: 115px;
       left: 0;
     }
+
     .decor1,
     .decor-2 {
       display: none;
     }
+
     .about-heading-small {
       width: max-content;
     }
@@ -545,6 +575,7 @@
     .churches-container-wrapper a {
       font-size: 13px;
     }
+
     /* 
   .our-churches-hd {
     width: max-content;
@@ -582,6 +613,7 @@
     .church-box {
       width: 100%;
     }
+
     .about-left {
       padding: 0;
     }
@@ -589,10 +621,12 @@
     .curch-box-image-content {
       width: 180px;
     }
+
     .about-heading-small {
       margin-bottom: 40px;
       margin-left: 0;
     }
+
     .about-des {
       max-width: 100%;
     }
@@ -632,7 +666,9 @@
     }
 
     .btn1 {
-      font-size: 12px;
+      font-size: 13px;
+      width: 130px;
+      height: 42px ;
       margin-left: 10px;
     }
 
@@ -686,20 +722,25 @@
       margin-bottom: 0;
       display: block;
     }
+
     .our-churches-hd .underline {
       margin-top: 2px;
     }
+
     .about-btn {
       font-size: 16px;
     }
+
     .about-heading-small {
       font-size: 20px;
     }
+
     .about-small-underline {
       width: 90%;
       margin-top: 2px;
       margin-bottom: 30px;
     }
+
     .church-box {
       height: 180px;
       border-radius: 10px;
@@ -829,11 +870,13 @@
       font-size: 22px;
       margin-left: 20px;
     }
+
     .sacraments-underline {
       width: 90%;
       margin-bottom: 20px;
       margin-top: -2px;
     }
+
     .sacraments-content-left,
     .sacraments-content-right {
       margin: 0;
@@ -892,13 +935,16 @@
       display: block;
       padding: 15px;
     }
+
     .about-heading-small {
       left: 0px;
     }
+
     .about-right {
       padding: 0;
       margin: 0;
     }
+
     .about-left {
       height: auto;
       margin-bottom: 20px;
@@ -907,9 +953,11 @@
     .sacrement-con {
       padding: 0 !important;
     }
+
     .church-container-wrapper {
       padding: 11px !important;
     }
+
     .charity-des {
       line-height: 26px;
       font-size: 13px;
@@ -936,12 +984,11 @@
       margin-top: 1px;
       margin-left: 5px;
     }
+
     .about-btn {
       margin-top: 25px !important;
     }
-    .btn1 {
-      padding: 10px 20px;
-    }
+
   }
 
   @media (max-width: 360px) {
@@ -952,6 +999,7 @@
     .curch-box-text-content {
       padding: 0px 10px;
     }
+
     .church-box {
       height: 159px;
       margin-bottom: 30px;
@@ -965,12 +1013,13 @@
     padding-bottom: 50px;
   }
 }
+
 @media(max-height : 800px) {
   .landing-page {
     max-height: 100% !important;
     padding-bottom: 50px;
   }
- 
+
   /* .landing-page {
     max-height: 90vh !important;
     background-image: none;
