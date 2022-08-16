@@ -176,8 +176,8 @@ button {
   margin-left: 50px;
   overflow: hidden;
   height: 570px;
+  background-image: url("../img//about\ churches.jpg");
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
 .about-church-content {
