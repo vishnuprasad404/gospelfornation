@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.event-detaild-page {
+    background-color: #191919;
+    color: white;
+}
+
+.container {
+    padding-top: 1px;
+}
+
+.navbar {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.navbar-nav {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .nav-item {
+  margin: 0 10px;
+  font-size: 17px;
+  color: #45669d;
+} */
+
+.nav-link-a {
+    color: #45669d;
+    text-decoration: none;
+}
+
+.selection-btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.selection-btn {
+    margin: 0 15px;
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fas {
+    margin-right: 10px;
+}
+
+.event-detaild-page-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.banner-section {
+    width: 800px;
+    height: 80vh;
+    position: relative;
+}
+
+.banner-section-title,
+.banner-section-description {
+    display: none;
+}
+
+.banner-img {
+    width: 500px;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 140px;
+    z-index: 10;
+}
+
+.decor-box {
+    width: 500px;
+    height: 180px;
+    background-color: #172930;
+    position: absolute;
+    bottom: 120px;
+}
+
+.content-section h1 {
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.content-section .description {
+    max-width: 650px;
+    margin: 35px 0;
+    line-height: 30px;
+    color: #cacaca;
+}
+
+.content-section .time,
+.venue {
+    font-size: 20px;
+    color: #cacaca;
+}
+
+.content-section .time {
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+.evt-icons {
+    margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+    .container,
+    .container-sm {
+        width: 720px;
+        padding-top: 20px;
+        max-width: 100%;
+    }
+    .event-detaild-page-container {
+        display: block;
+    }
+    .banner-section,
+    .content-section {
+        width: 100%;
+        padding: 20px;
+    }
+    .decor-box {
+        display: none;
+    }
+    .banner-section {
+        height: auto;
+    }
+    .banner-img {
+        width: 100%;
+        position: static;
+    }
+    .banner-section-title,
+    .banner-section-description {
+        display: block;
+    }
+    .banner-section-description {
+        color: #cacaca;
+        margin-bottom: 20px;
+    }
+    .selection-btns {
+        margin: 40px 0;
+    }
+    .content-section {
+        margin: 0;
+    }
+    .content-section h1 {
+        display: none;
+    }
+    .content-section .description {
+        margin: 0;
+        margin-top: 16px;
+    }
+    .content-section .time,
+    .venue {
+        font-size: 17px;
+    }
+    .content-section .time {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    .navbar {
+        padding: 0;
+    }
+    .navbar .navbar-brand img {
+        width: 65px;
+    }
+    .banner-img {
+        width: 100%;
+        height: 350px;
+    }
+    .selection-btn {
+        width: auto;
+        padding: 5px 10px;
+        margin: 0;
+        margin: 0 5px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 450px) {
+    .content-section .description {
+        font-size: 15px;
+    }
+    .banner-section,
+    .content-section {
+        padding: 0px 20px;
+    }
+    .content-section {
+        padding: 20px;
+    }
+    .evt-icons {
+        margin-right: 5px;
+        width: 13px;
+    }
+}
+
+@media (max-width: 400px) {
+    .selection-btn {
+        font-size: 10px;
+        height: auto;
+        padding: 10px 10px;
+    }
+    .selection-btn .fas {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 368px) {
+    .selection-btn {
+        font-size: 10px;
+        height: auto;
+        padding: 5px 9px;
+    }
+    .selection-btn .fas {
+        font-size: 12px;
+        margin-right: 3px;
+    }
+}

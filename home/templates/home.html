@@ -1,0 +1,313 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="{% static 'img/favicon.png' %}" type="image/x-icon">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/landingpage.css' %}">
+  <link rel="stylesheet" href="{% static 'css/charity.css' %}">
+  <link rel="stylesheet" href="{% static 'css/events.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/footer.css' %}" />
+  <!-- -----meta tags ------ -->
+  <meta name="keywords"
+    content="gospelfornations,gospelfornation,church,Malayalam,High Wycombe,high wycombe Malayalee Pentecostal Church in High Wycombe,wycombe, Aylesbury,oxford,Buckinghamshire,Oxfordshire aylesbury church uk waycombe">
+  <meta name="description"
+    content="Malayalam/ Malayalee Pentecostal Church in High Wycombe, Aylesbury, Oxford,  Buckinghamshire,  Oxfordshire">
+
+
+  <!-- --------meta tags--------- -->
+  <title>Gospelfornations</title>
+</head>
+
+<body>
+
+  <div class="home-page">
+    <div class="landing-page">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+          <a class="navbar-brand" href="/"><img src="{% static 'img/logo.png' %}" alt="logo" /></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/events">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/charity">Charity</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/minister">Our Minister</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/photos">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact Us</a>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+        <h1 class="landing-title">A purpose driven church anchored in Christ Jesus! </h1>
+        <p class="landing-des">
+          We are extremely glad you took the time to visit us on our web page.
+          Regardless of where you are on your life journey - just starting out
+          or seeking a deeper walk with God, we want you to feel at home here.
+        </p>
+        <div class="landing-btns">
+          <button class="btn1" onclick="goAbout()">Find Us</button>
+          <button class="btn2" onclick="goWaycombe()">
+            View Location <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="landing-icons">
+          <div class="landing-icon">
+            <a class="fa fa-youtube" style="color: white ;"
+              href="https://www.youtube.com/channel/UC6RJQprq8X-yLUlVaOI1XHQ"></a>
+          </div>
+          <div class="landing-icon">
+            <a class="fa fa-facebook" href="https://m.facebook.com/oxfordandwycombeprayercentre/"></a>
+
+          </div>
+          <div class="landing-icon">
+            <i class="fa fa-twitter" onclick="goTwit()"></i>
+          </div>
+          <div class="landing-icon">
+            <i class="fa fa-instagram"></i>
+          </div>
+          <p class="landing-line"></p>
+        </div>
+      </div>
+    </div>
+    <div class="container church-container-wrapper">
+      <h1 class="our-churches-hd">
+        Our Churches
+        <p class="underline"></p>
+      </h1>
+
+      <div class="churches-container-wrapper">
+        <a href="/church/about" style="color: #47ccff;">See All</a>
+        <br /><br /><br />
+        <div class="churches-container">
+          <div class="church-box">
+            <div class="curch-box-text-content">
+              <h1>Wycombe Prayer Center</h1>
+              <p>
+                Based in this beautiful town is Wycombe Prayer Center...
+              </p>
+              <button class="church-box-btn">
+                <a href="/church/about#wycombe">Read More <i class="fas fa-arrow-right"></i></a>
+              </button>
+            </div>
+            <div class="curch-box-image-content cim-1"></div>
+          </div>
+          <div class="church-box box-2">
+            <div class="curch-box-text-content">
+              <h1>Oxford Prayer Center</h1>
+              <p>
+                Oxford Prayer Center is a Malayalee Pentecostal church...
+              </p>
+              <button class="church-box-btn">
+                <a href="/church/about#oxford">Read More <i class="fas fa-arrow-right"></i></a>
+              </button>
+            </div>
+            <div class="curch-box-image-content cim-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-churches-container">
+      <div class="about-left">
+        <h1 class="about-heading-small">
+          About Churches
+          <p class="underline about-small-underline"></p>
+        </h1>
+        <div class="decor1"></div>
+        <div class="about-img"></div>
+      </div>
+      <div class="about-right">
+        <h1 class="about-heading">
+          About Churches
+          <p class="underline about-underline"></p>
+        </h1>
+        <p class="about-des">
+          In 2009, Pastor Finny John and family were used as instruments by God for laying the foundations of a prayer
+          gathering in High Wycombe, Buckinghamshire and further fellowships were established in Oxford and
+          Aylesbury.
+        </p>
+        <a href="/church/about">
+          <button class="about-btn" style="color: #57bfe6;">
+            <a href="/church/about" style="color: #57bfe6;">Read More <i class="fas fa-arrow-right"
+                style="color: #57bfe6;"></i></a>
+          </button>
+        </a>
+        <div class="decor-2"></div>
+      </div>
+    </div>
+
+    <!-- sacrament start -->
+    <div class="sacraments-container">
+      <div class="container sacrement-con">
+        <h1 class="sacraments-heading">
+          Charity
+          <p class="underline sacraments-underline"></p>
+        </h1>
+        <section class="charity-container">
+          <div class="charity-left">
+            <p class="charity-des">We are, Gospel for Nations( GFN), registered charity under the charity
+              <br>commission,
+              UK. <br><br> Through the love of Christ, we aim to show support to the community. We have a burden for the
+              nations hence we named ourselves as Gospel for Nations.  The activities of the trust are governed by a
+              board
+              of 3 trustees. <br><br>Under GFN, the Lord enables to organise various activities to help the communities,
+              run music classes, kingdom kids, ladies gatherings, family get together, musical events, day outings,
+              summer
+              fairs, biblical study classes, career guidance, language classes and character developing activities. We
+              also fund raise to support voluntary agencies and other organisations within the UK. <br><br> Please do
+              get
+              in touch to know more about our charitable services.
+            </p>
+            <div class="charity-decor1"></div>
+          </div>
+          <div class="charity-right">
+            <img class="charity-image" src="{% static 'img/people-holding-rubber-heart.png' %}"></img>
+            <div class="charity-decor2"></div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+    <!-- sacrament end -->
+
+    {% comment %} Events {% endcomment %}
+    <div class="container evt-container">
+      <h2 class="up-comming-event-heading heading mt-5">
+        Upcomming Events <br />
+        <label class="mb-4 mt-3" for=""></label>
+      </h2>
+
+      <!-- event image gallery start -->
+
+      <div class="event-gallery-container">
+        <!------Dynamic Content start-->
+
+        {% for event in upcoming_events %}
+        <a href="event/details?id={{event.id}}">
+          <div class="gallery-content">
+            <img src="/media/{{event.image}}" alt="event-banner" />
+            <h5>{{event.title}}</h5>
+            <p>{{event.time_from}} to {{event.time_to}}</p>
+          </div>
+        </a>
+        {% endfor %}
+
+        <!------Dynamic Content start-->
+      </div>
+
+      <h2 class="previous-event-heading heading">
+        Previous Events <br />
+        <label></label>
+      </h2>
+
+      <div class="event-gallery-container">
+        <!------Dynamic Content start-->
+        {% for event in previous_events %}
+        <a href="event/details?id={{event.id}}">
+          <div class="gallery-content">
+            <img src="/media/{{event.image}}" alt="event-banner" />
+            <h5>{{event.title}}</h5>
+            <p>{{event.time_from}} to {{event.time_to}}</p>
+          </div>
+        </a>
+        {% endfor %}
+        <!------Dynamic Content start-->
+      </div>
+
+      <!-- event image gallery end -->
+    </div>
+    {% comment %} Events End {% endcomment %}
+
+
+    <section class="footer">
+      <div class="footer-top">
+        <section class="address-section">
+          <h5>Address</h5>
+          <p>12 Field Road</p>
+          <p>High Wycombe</p>
+          <p>HP12 4LR</p>
+        </section>
+        <section class="contact-section">
+          <h5>Contact Us</h5>
+          <p>+44 7956 424509</p>
+          <p>wpcgospelfornations@gmail.com</p>
+        </section>
+        <section class="follow-section">
+          <h5>Follow Us</h5>
+          <div class="icon-container">
+            <i class="fa-brands fa-youtube" onclick="goYoutube()"></i><i class="fa-brands fa-twitter" onclick="goTwit()"
+              style="margin-left: 5px"></i><i class="fa-brands fa-facebook-f" onclick="goFb()"
+              style="margin-left: 5px"></i>
+            <i class="fa-brands fa-instagram" onclick="goInsta()" style="margin-left: 5px"></i>
+          </div>
+        </section>
+      </div>
+      <div class="footer-bottom">
+        <p>@ 2022 www.gospelfornations.co.uk All Rights Reserved</p>
+      </div>
+    </section>
+
+  </div>
+  <script src="https://kit.fontawesome.com/ffd7bffe92.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+
+  <script>
+    function goAbout() {
+      window.location.href = '/church/about'
+    }
+
+    function goWaycombe() {
+      window.location.href = "https://www.google.com/maps/place/John+Wood+Scout+Centre,+Keep+Hill+Rd,+High+Wycombe+HP11+1DW,+UK/@51.6212802,-0.7346267,17z/data=!3m1!4b1!4m5!3m4!1s0x487661bf6e33d66b:0xe6b1847e8c8b6ff7!8m2!3d51.6212802!4d-0.7346267"
+    }
+
+    function goOxford() {
+      window.location.href = "https://www.google.com/maps/place/Cheney+School/@51.7531368,-1.2222746,15z/data=!4m5!3m4!1s0x0:0x168e662c1037c82e!8m2!3d51.7531368!4d-1.2222746"
+    }
+
+
+    function goYoutube() {
+      window.location.href = "https://www.youtube.com/channel/UC6RJQprq8X-yLUlVaOI1XHQ"
+    }
+
+    function goFb() {
+      window.location.href = "https://www.google.com/url?sa=t&source=web&rct=j&url=https://m.facebook.com/oxfordandwycombeprayercentre/&ved=2ahUKEwjQuoT3xM_4AhUvQkEAHaJSBeIQFnoECAYQBQ&usg=AOvVaw08t821lKnrZRqp8jz7OmgX"
+    }
+
+    function goTwit() {
+      window.location.href = "https://twitter.com/NationsGospel?t=_U1phYnDhBNpc-zi-_2z5A&s=08"
+    }
+
+    function goInsta() {
+      window.location.href = ""
+    }
+
+
+  </script>
+
+</body>
+
+</html>
