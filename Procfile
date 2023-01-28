@@ -1,1 +1,1 @@
-web: gunicorn 'tasteit.wsgi'
+web: gunicorn 'church.wsgi'
