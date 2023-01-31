@@ -217,25 +217,6 @@
         <!------Dynamic Content start-->
       </div>
 
-      <h2 class="previous-event-heading heading">
-        Previous Events <br />
-        <label></label>
-      </h2>
-
-      <div class="event-gallery-container">
-        <!------Dynamic Content start-->
-        {% for event in previous_events %}
-        <a href="event/details?id={{event.id}}">
-          <div class="gallery-content">
-            <img src="/media/{{event.image}}" alt="event-banner" />
-            <h5>{{event.title}}</h5>
-            <p>{{event.time_from}} to {{event.time_to}}</p>
-          </div>
-        </a>
-        {% endfor %}
-        <!------Dynamic Content start-->
-      </div>
-
       <!-- event image gallery end -->
     </div>
     {% comment %} Events End {% endcomment %}
