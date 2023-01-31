@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-fq1#wp3c^mvn1dz6_218mw^2!xfw$t-wkhsi%n0@@2djhfn1b@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gospelfornations.co.uk', '0.0.0.0', '127.0.0.1']
+ALLOWED_HOSTS = ['https://*.gospelfornations.co.uk', '0.0.0.0', 'https://*.127.0.0.1','gospelfornations.co.uk']
 
 
 # Application definition
@@ -137,3 +137,5 @@ EMAIL_HOST_PASSWORD = 'wgigggbhpomisexc'
 
 # wgigggbhpomisexc
 # wpcgospelfornations@gmail.com
+
+CSRF_COOKIE_SECURE=False
