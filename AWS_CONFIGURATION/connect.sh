@@ -1,0 +1,1 @@
+ssh -i "gospel.pem" ubuntu@ec2-35-154-203-169.ap-south-1.compute.amazonaws.com
